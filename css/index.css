@@ -1,0 +1,533 @@
+/*
+Template Name:Jewels
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+/*********************center****************/
+@media screen and (min-width : 768px){
+.sb-slider li.sb-current .sb-description {
+	width:30%;
+	margin-left:auto;
+	margin-right:auto;
+}
+}
+.center_home{
+  overflow:hidden;
+  }
+.shadow {
+	width: 100%;
+	height: 168px;
+	position: relative;
+	margin-top: -110px;
+	background-size: 100% 100%; /* stretches it */
+	z-index: -1;
+	display: none;
+}
+
+.sb-description h3 {
+	font-size: 30px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+}
+
+.nav-dots {
+	text-align: center;
+	position: absolute;
+	bottom: 10px;
+	height: 30px;
+	width: 100%;
+	left: 0;
+	display: none;
+}
+
+.nav-dots span {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	margin: 3px;
+	background: #cbbfae;
+	cursor: pointer;
+	box-shadow: 
+	0 1px 1px rgba(255,255,255,0.6), 
+	inset 0 1px 1px rgba(0,0,0,0.1);
+}
+
+.nav-dots span.nav-dot-current {
+	box-shadow: 
+	0 1px 1px rgba(255,255,255,0.6), 
+	inset 0 1px 1px rgba(0,0,0,0.1), 
+	inset 0 0 0 3px #cbbfae,
+	inset 0 0 0 8px #fff;
+}
+
+.wrapper {
+	position: relative;
+	max-width: 100%;
+	width: 100%;
+	margin: 0 auto;
+}
+
+/* Slicebox Style */
+.sb-slider {
+	margin:0px auto;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	list-style-type: none;
+	padding: 0;
+	max-width:100%!important;
+}
+
+.sb-slider li {
+	margin: 0;
+	padding: 0;
+	display: none;
+}
+
+.sb-slider li > a {
+	outline: none;
+}
+
+.sb-slider li > a img {
+	border: none;
+}
+
+.sb-slider img {
+	max-width: 100%;
+	display: block;
+}
+
+.sb-description {
+	padding: 20px;
+	bottom: 10px;
+	left: 10px;
+	right: 10px;
+	z-index: 1000;
+	position: absolute;
+	background: #CBBFAE;
+	background:#00000085;
+	border-left: 4px solid rgba(255,255,255,0.7);
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);	
+	opacity: 0;
+	color: #fff;
+	-webkit-transition: all 200ms;
+	-moz-transition: all 200ms;
+	-o-transition: all 200ms;
+	-ms-transition: all 200ms;
+	transition: all 200ms;
+}
+
+.sb-slider li.sb-current .sb-description {
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);	
+	opacity: 1;
+}
+
+.sb-slider li.sb-current .sb-description:hover {
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=99)";
+	filter: alpha(opacity=99);	
+	background:#00000085;
+}
+
+.sb-perspective {
+	position: relative;
+}
+
+.sb-perspective > div {
+	position: absolute;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-backface-visibility : hidden;
+	-moz-backface-visibility : hidden;
+	-o-backface-visibility : hidden;
+	-ms-backface-visibility : hidden;
+	backface-visibility : hidden;
+}
+
+.sb-side {
+	margin: 0;
+	display: block;
+	position: absolute;
+	-moz-backface-visibility : hidden;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+/*********************center_end****************/
+
+/*********************brand****************/
+#brand{
+  background:#8a8060;
+  padding-top:60px;
+  padding-bottom:250px;
+  }
+.brand_1 h1{
+  color:#fff; 
+   }
+.brand_1 p{
+  color:#fff; 
+  margin-top:10px;
+  font-size:18px;
+   }
+
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+}
+.brand{
+position:relative;  
+  }
+.brand_2{
+ margin-top:60px; 
+ position:absolute;
+ top:85%;
+  } 
+/*********************brand_end****************/
+
+/*********************Philosophy****************/
+#Philosophy{
+  background:#8a8060;
+  padding-top:50px;
+  padding-bottom:60px;
+  margin-top:250px;
+  }
+.Philosophy_left h1{
+  color:#fff;
+   }
+.Philosophy_left p{
+  color:#fff; 
+  margin-top:30px;
+  font-size:20px;
+  line-height:1.6em;
+   }
+
+.Philosophy_right{
+ margin-top:20px;  
+   }
+.Philosophy_right_inner img:hover{
+opacity:0.8;
+  }
+.Philosophy_right_inner_1 h3{
+ color:#fff; 
+  }
+.Philosophy_right_inner_1 p{
+ color:#fff; 
+ margin-top:10px;
+ font-size:18px;
+  }
+/*********************Philosophy_end****************/
+
+/*********************collection_home****************/
+#collection_home{
+ padding-top:50px;
+ padding-bottom:50px; 
+  }
+.collection_home_1 p{
+  margin-top:20px;
+  font-size:18px;
+  line-height:1.6em;
+  }
+ 
+.collection_home_2{
+ margin-top:40px; 
+  } 
+/* Common style */
+.grid figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	min-width:100%;
+	width: 100%;
+	background: #3085a3;
+	text-align: center;
+	cursor: pointer;
+}
+
+.grid figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	max-width: 100%;
+	opacity: 0.8;
+}
+
+.grid figure figcaption {
+	padding: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+	pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.grid figure h2 {
+	word-spacing: -0.15em;
+	font-weight: 300;
+}
+
+.grid figure h2 span {
+	font-weight: 800;
+}
+
+.grid figure h2,
+.grid figure p {
+	margin: 0;
+}
+
+.grid figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+
+/*-----------------*/
+/***** Steve *****/
+/*-----------------*/
+
+figure.effect-steve {
+	z-index: auto;
+	overflow: visible;
+	background: #000;
+}
+
+figure.effect-steve:before,
+figure.effect-steve h2:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	content: '';
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+}
+
+figure.effect-steve:before {
+	box-shadow: 0 3px 30px rgba(0,0,0,0.8);
+	opacity: 0;
+}
+
+figure.effect-steve figcaption {
+	z-index: 1;
+}
+
+figure.effect-steve img {
+	opacity: 1;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: perspective(1000px) translate3d(0,0,0);
+	transform: perspective(1000px) translate3d(0,0,0);
+}
+
+figure.effect-steve h2,
+figure.effect-steve p {
+	background: #fff;
+	color: #2d434e;
+}
+
+figure.effect-steve h2 {
+	position: relative;
+	margin-top: 11em;
+	padding: 0.25em;
+}
+
+figure.effect-steve h2:before {
+	box-shadow: 0 1px 10px rgba(0,0,0,0.5);
+}
+
+figure.effect-steve p {
+	margin-top: 1em;
+	padding: 0.5em;
+	font-weight: 800;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale3d(0.9,0.9,1);
+	transform: scale3d(0.9,0.9,1);
+}
+
+figure.effect-steve:hover:before {
+	opacity: 1;
+}
+
+figure.effect-steve:hover img {
+	-webkit-transform: perspective(1000px) translate3d(0,0,21px);
+	transform: perspective(1000px) translate3d(0,0,21px);
+}
+
+figure.effect-steve:hover h2:before {
+	opacity: 0;
+}
+
+figure.effect-steve:hover p {
+	opacity: 1;
+	-webkit-transform: scale3d(1,1,1);
+	transform: scale3d(1,1,1);
+}
+
+/*********************collection_home_end****************/
+
+/*********************shipping****************/
+#shipping{
+ background:#f4f4f4;
+ padding-top:40px;
+ padding-bottom:40px;
+ border-top:1px solid #ccc; 
+  }
+.shipping{
+   width:70%;
+   margin-left:auto;
+   margin-right:auto;
+   }
+.shipping_1 p{
+  margin-top:10px;
+  font-size:18px;
+  }
+/*********************shipping_end****************/
+
+@media screen and (max-width : 767px){
+.sb-slider img{
+min-height:250px;  
+  }
+.brand_1 p{
+ margin-bottom:20px;
+  }
+.brand_2{
+ position:static;
+ margin-top:0; 
+  }
+.hide-bullets{
+ margin-left:0;
+ display:none;
+ }
+.carousel-inner>.item>img, .carousel-inner>.item>a>img{
+ min-height:200px; 
+  }
+#brand{
+padding-bottom:60px;  
+  }
+#Philosophy{
+ margin-top:0;
+ background:#6d6754;
+ text-align:center; 
+  }
+.Philosophy_right_inner_1 {
+margin-top:15px; 
+ }
+#collection_home{
+ text-align:center; 
+  }
+.collection_home_2_inner {
+ margin-bottom:20px; 
+  }
+.shipping_1 {
+ margin-top:10px; 
+ text-align:center;
+  }
+figure.effect-steve img{
+ width:100%; 
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+.hide-bullets{
+ margin-left:0; 
+  }
+.carousel-inner>.item>img, .carousel-inner>.item>a>img{
+ min-height:300px; 
+  }
+#Philosophy{
+margin-top:150px;  
+  }
+.sb-slider img{
+min-height:400px;  
+  }
+.Philosophy_right_inner img{
+ min-height:100px; 
+  }
+.collection_home_1 {
+padding-left:10px;
+padding-right:10px;  
+  }
+.collection_home_2 .space_left{
+padding-left:15px; 
+} 
+}
+ @media (min-width:992px) and (max-width:1200px) {
+.sb-slider img{
+min-height:400px;  
+  }
+.hide-bullets{
+ margin-left:0; 
+  }
+.carousel-inner>.item>img, .carousel-inner>.item>a>img{
+ min-height:300px; 
+  }
+#Philosophy{
+margin-top:170px;  
+  }
+.collection_home_1 {
+padding-left:10px;
+padding-right:10px;  
+  }
+.collection_home_2 .space_left{
+padding-left:15px; 
+} 
+ }
+@media (min-width:1201px) and (max-width:1275px) {
+.hide-bullets{
+ margin-left:0; 
+  }
+.collection_home_2 .space_left{
+padding-left:15px; 
+} 
+ }
+
+
+
