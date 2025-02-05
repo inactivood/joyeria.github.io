@@ -6,6 +6,9 @@ Author URI: http://templateonweb.com/
 Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
 */
 /*********************product****************/
+body{
+font-family: 'Kanit', cursive;
+   }
 .center_product_main{
   padding-top:50px;
   padding-bottom:60px;

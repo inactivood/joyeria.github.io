@@ -6,7 +6,7 @@ Author URI: http://templateonweb.com/
 Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
 */
 body{
-font-family: 'Gugi', cursive;
+font-family: 'Kanit', cursive;
    }
 h1,h2,h3,h4,h5,h6{
 padding:0;
@@ -71,7 +71,7 @@ font-size:14px;
 
 /*********************header****************/
 #header .text_1{
-color:#FF0000;  
+color:#a37800;  
   }
 #header .text_2{
 color:#cece25; 
@@ -88,6 +88,9 @@ color:#CC3300;
 #header .text_6{
 color:#FFCC33;
   }
+#header .text_7{
+color:#0021a3;
+  }  
 .dropdown-large {
   position: static !important;
 }
@@ -131,7 +134,7 @@ color:#FFCC33;
   cursor: not-allowed;
 }
 .dropdown-menu-large .dropdown-header {
-  color: #8a8060;
+  color: #0e0e0f;
   font-size: 18px;
   font-weight:bold;
 }
@@ -153,7 +156,7 @@ color:#FFCC33;
 
 #header{
   padding-top:10px;
-  background:#e2dbc7; 
+  background:#FFFFFF; 
    }
 .navbar-default{
  background:none;
@@ -181,17 +184,17 @@ margin-right:50px;
  padding-bottom:10px!important;  
    }
 .font_tag:hover{
- color:#8a8060!important; 
+ color:#1f1f1f!important; 
    } 
 .font_tag:focus{
  color:#8a8060!important; 
    } 
 .active_tag{
-background:#8a8060;
+background:#1f1f1f;
 color:#fff!important;
   }
 .active_tag:hover{
-background:#8a8060!important;
+background:#1f1f1f!important;
 border:none!important;
 color:#fff!important;
   }
@@ -211,7 +214,7 @@ color:#fff!important;
   left: 50%;
   right: 50%;
   bottom: 0;
-  background: #8a8060;
+  background: #1f1f1f;
   height: 2px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
@@ -230,8 +233,8 @@ color:#fff!important;
   margin-top:10px!important;
   }
 .drop_1 .btn{
- background:#8a8060;
- border-color:#8a8060;
+ background:#0e0e0f;
+ border-color:#FFFFFF;
  margin-left:0!important;
   }
   
@@ -252,7 +255,7 @@ color:#fff!important;
 
 /*********************footer****************/
 #footer{
- background:#8a8060;
+ background:#0e0e0f;
  padding-top:40px;
  padding-bottom:40px;
   }
@@ -485,7 +488,7 @@ padding-bottom:15px!important
  }
 #header  .drop_3 a:hover{
 color:#fff!important;
-background:#8a8060!important;
+background:#1f1f1f!important;
  }
 #header  .drop_3{
 padding:0;
@@ -542,7 +545,7 @@ font-weight:100;
 padding-bottom:0!important; 
  }
 .collection_home_1 h1{
-color:#8a8060;
+color:#0d0c0c;
 }
 .login_main_left h1{
 color:#8a8060; 
