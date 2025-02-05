@@ -50,7 +50,7 @@ Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152
 	height: 16px;
 	border-radius: 50%;
 	margin: 3px;
-	background: #cbbfae;
+	background: #00000085;
 	cursor: pointer;
 	box-shadow: 
 	0 1px 1px rgba(255,255,255,0.6), 
@@ -61,7 +61,7 @@ Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152
 	box-shadow: 
 	0 1px 1px rgba(255,255,255,0.6), 
 	inset 0 1px 1px rgba(0,0,0,0.1), 
-	inset 0 0 0 3px #cbbfae,
+	inset 0 0 0 3px #00000085,
 	inset 0 0 0 8px #fff;
 }
 
@@ -109,7 +109,7 @@ Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152
 	right: 10px;
 	z-index: 1000;
 	position: absolute;
-	background: #CBBFAE;
+	background: #0d0c0c;
 	background:#00000085;
 	border-left: 4px solid rgba(255,255,255,0.7);
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -168,46 +168,68 @@ Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152
 /*********************center_end****************/
 
 /*********************brand****************/
-#brand{
-  background:#8a8060;
-  padding-top:60px;
-  padding-bottom:250px;
-  }
-.brand_1 h1{
-  color:#fff; 
-   }
-.brand_1 p{
-  color:#fff; 
-  margin-top:10px;
-  font-size:18px;
-   }
+#brand {
+  background: #FFFFFF;
+  padding-top: 60px;
+  padding-bottom: 250px;
+}
+
+.brand_1 {
+    text-align: center;
+}
+
+.brand_1 h1 {
+    color: #141412; /* Color blanco para el encabezado */
+}
+
+.brand_1 p {
+    color: #141412; /* Color blanco para el párrafo */
+    margin-top: 10px;
+    font-size: 18px;
+}
 
 .hide-bullets {
-    list-style:none;
-    margin-left: -40px;
-    margin-top:20px;
+  list-style: none;
+  margin-left: -40px;
+  margin-top: 20px;
 }
 
 .thumbnail {
-    padding: 0;
+  padding: 0;
 }
 
 .carousel-inner>.item>img, .carousel-inner>.item>a>img {
-    width: 100%;
+  width: 100%;
 }
-.brand{
-position:relative;  
-  }
-.brand_2{
- margin-top:60px; 
- position:absolute;
- top:85%;
-  } 
+
+.brand {
+  position: relative;
+}
+
+.brand_2 {
+  background-color: #FFFFFF; /* Fondo blanco */
+  margin-top: 60px;
+  position: absolute;
+  top: 85%;
+  padding: 20px; /* Opcional: agrega padding si es necesario */
+}
+
+/* Estilo específico para el texto dentro de .brand_2 */
+.brand_2 a,
+.brand_2 p,
+.brand_2 h1,
+.brand_2 h2,
+.brand_2 h3,
+.brand_2 h4,
+.brand_2 h5,
+.brand_2 h6 {
+  color: #000000; /* Color negro para el texto */
+}
 /*********************brand_end****************/
 
 /*********************Philosophy****************/
 #Philosophy{
-  background:#8a8060;
+  background:#0d0c0c;
   padding-top:50px;
   padding-bottom:60px;
   margin-top:250px;
@@ -259,7 +281,7 @@ opacity:0.8;
 	overflow: hidden;
 	min-width:100%;
 	width: 100%;
-	background: #3085a3;
+	background: #0d0c0c;
 	text-align: center;
 	cursor: pointer;
 }
